@@ -1,4 +1,4 @@
-# dropwizard-service-template
+# dropwizard-hazelcast-service
 Template to start building a Dropwizard service, this includes some features by default:
 
 - Dropwizard

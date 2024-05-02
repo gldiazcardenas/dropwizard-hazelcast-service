@@ -1,4 +1,4 @@
-name: dropwizard-service-template/main
+name: dropwizard-service-hazelcast/main
 
 on:
   push:

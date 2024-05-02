@@ -3,10 +3,10 @@ package io.github.gldiazcardenas.dropwizard;
 import io.dropwizard.configuration.EnvironmentVariableSubstitutor;
 import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
 import io.dropwizard.configuration.SubstitutingSourceProvider;
-import io.github.gldiazcardenas.dropwizard.health.HelloWorldHealthCheck;
 import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
 import io.dropwizard.core.setup.Environment;
+import io.github.gldiazcardenas.dropwizard.health.HelloWorldHealthCheck;
 import ru.vyarus.dropwizard.guice.GuiceBundle;
 
 public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
