@@ -1,6 +1,5 @@
 greetingTemplate: Hello, %s!
 defaultVisitorName: Stranger
-clusterName: dropwizard-cluster
 
 server:
   applicationConnectors:
@@ -10,6 +9,10 @@ server:
   adminConnectors:
     - type: http
       port: 8081
+
+hazelcast:
+  instance-name: dropwizard-hazelcast
+  cluster-name: dropwizard-hazelcast
 
 logging:
   level: INFO
@@ -33,6 +36,4 @@ logging:
       timeZone: UTC
       maxFileSize: 10MiB
 
-hazelcast:
-  instance-name: dropwizard-hazelcast
-  cluster-name: dropwizard-hazelcast
+
